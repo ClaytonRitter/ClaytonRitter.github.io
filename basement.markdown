@@ -4,7 +4,7 @@ title: TheBasement
 permalink: /thebasement
 ---
 
-EY WELCOME TO TH E BASEMENT
+EY WELCOME TO THEBASEMENT
 
 THIS WHERE WE GET SHIT DONE
 
