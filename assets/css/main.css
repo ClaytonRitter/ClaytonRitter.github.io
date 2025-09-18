@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-
 body {
   margin: 0;
+  padding: 0;
   background: #e7e2d8;
-
-  //border: solid 2px green;
 }
 
 a {
@@ -20,10 +17,10 @@ a {
 } */
 
 a:hover, a:focus {
-  //text-decoration: underline;
+  /* text-decoration: underline; */
   color: #454c57;
   background: rgb(171, 188, 214, 20%);
-  //border: solid 2px #454c57;
+  /* border: solid 2px #454c57; */
   border-radius: 6px;
 }
 
@@ -48,19 +45,22 @@ p {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.3rem;
-  //word-spacing: -0.01rem;
-  //letter-spacing: 0.03rem;
+  /* word-spacing: -0.01rem;
+  letter-spacing: 0.03rem; */
   text-align: left;
 }
 
+.post-link {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 .content {
-  //background: white;
+  /* background: white; */
 
   margin: 2em 4em;
   padding: 16px;
-  
-  //border-radius: 8px;
-  //border: solid 2px black;
 }
 
 .basement-body {
@@ -78,8 +78,6 @@ p {
   height: 128px;
   margin: 0;
   padding: 0;
-
-  //border: solid 2px blue;
 }
 
 .banner-back {
