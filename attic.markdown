@@ -5,7 +5,6 @@ permalink: /theattic
 ---
 
 YOU ARE IN THE ATTIC!!!!!!!!    
-
-its actually kinda empty in here rn. youre a bit early, but thats alright, make yourself at home!
+its actually kinda empty in here...
 
 [BORING ASF LETS GO BACK DOWN ALL THE STAIRS]({% link index.markdown %})

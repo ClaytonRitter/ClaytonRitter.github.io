@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
 
 body {
   margin: 0;
@@ -10,7 +9,7 @@ body {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: hsl(217, 12%, 50%);
+  color: hsl(217, 12%, 65%);
 }
 
 /* a:visited {
@@ -19,19 +18,19 @@ a {
 
 a:hover, a:focus {
   /* text-decoration: underline; */
-  color: #454c57;
-  background: rgb(171, 188, 214, 20%);
+  color: hsl(0, 10%, 10%);
+  background: #ded7ca;
   /* border: solid 2px #454c57; */
-  border-radius: 6px;
+  border-radius: 2px;
 }
 
 a:active {
-  color: #8591a5;
+  color: black;
 }
 
 h1 {
-  color: #382e2e;
-  font-family: "Nunito Sans", sans-serif;
+  color: #ded7ca;
+  font-family: "Special Gothic Expanded One", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
   /* line-height: 1.3rem;
@@ -41,14 +40,14 @@ h1 {
 }
 
 p {
-  color: hsl(0, 10%, 30%);
-  font-family: "Nunito Sans", sans-serif;
+  color: hsl(217, 12%, 50%);
+  font-family: "Public Sans", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.3rem;
-  /* word-spacing: -0.01rem; */
-  letter-spacing: 0.03rem;
-  text-align: left;
+  word-spacing: 0.03rem;
+  letter-spacing: -0.08rem;
+  text-align: justify;
 }
 
 .content {

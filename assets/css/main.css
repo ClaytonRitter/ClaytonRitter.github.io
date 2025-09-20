@@ -1,27 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&family=Special+Gothic+Expanded+One&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  background: #e7e2d8;
+  background: black;
 }
 
 a {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  color: hsl(217, 12%, 50%);
+  color: hsl(217, 12%, 65%);
+  padding: 2px;
 }
-
-/* a:visited {
-  color: purple;
-} */
 
 a:hover, a:focus {
   /* text-decoration: underline; */
-  color: #454c57;
-  background: rgb(171, 188, 214, 20%);
+  color: hsl(0, 10%, 10%);
+  background: #ded7ca;
   /* border: solid 2px #454c57; */
-  border-radius: 6px;
 }
 
 a:active {
@@ -29,51 +27,63 @@ a:active {
 }
 
 h1 {
-  color: #382e2e;
-  font-family: "Nunito Sans", sans-serif;
+  color: #ded7ca;
+  font-family: "Special Gothic Expanded One", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
-  /* line-height: 1.3rem;
-  word-spacing: -0.01rem;
-  letter-spacing: 0.03rem; */
+  line-height: 0rem;
+  background: #000000;
   text-align: left;
 }
 
 p {
-  color: #382e2e;
-  font-family: "Nunito Sans", sans-serif;
+  color: hsl(217, 12%, 50%);
+  font-family: "Public Sans", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.3rem;
-  /* word-spacing: -0.01rem;
-  letter-spacing: 0.03rem; */
-  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  word-spacing: 0.04rem;
+  letter-spacing: -0.06rem;
+  text-align: justify;
+}
+
+ul.a {
+  margin: 0rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  padding: 0.2em 0;
 }
 
 .post-link {
-  font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.4rem;
+  font-family: "Special Gothic Condensed One", sans-serif;
+  text-decoration: none;
+  word-spacing: 0.06rem;
+  letter-spacing: 0.03rem;
+}
+
+.post-date {
+  font-family: "Public Sans", sans-serif;
+  color: hsl(217, 12%, 50%);
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 0rem;
+  word-spacing: 0.04rem;
+  letter-spacing: -0.06rem;
 }
 
 .content {
   /* background: white; */
-
-  margin: 2em 4em;
+  margin: 1em 4em;
   padding: 16px;
-}
-
-.basement-body {
-  background: black;
-
-  margin: 0;
-  padding: 0;
-  height: 100%;
 }
 
 .banner-container {
   position: relative;
-  
   width: 100%;
   height: 128px;
   margin: 0;
@@ -82,16 +92,48 @@ p {
 
 .banner-back {
   position: absolute;
-  
   width: 100%;
   margin: 0;
 }
 
 .banner-front {
   position: absolute;
-  top: -16px;
+  width: 100%;
+  margin: 0;
+}
 
+.banner-logo {
+  position: absolute;
+  top: -16px;
   margin: 0 3.5em;
+}
+
+.banner-logo a:hover, a:focus {
+  background: rgb(222, 215, 202, 0);
+}
+
+.nav {
+  position: absolute;
+  top: 12px;
+  left: 332px;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.nav-span a {
+  color: #ded7ca;
+  background: black;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: left;
+  padding: 0 16px;
+}
+
+.nav-span a:hover, a:focus {
+  color: hsl(0, 10%, 10%);
+  background: #ded7ca;
 }
 
 
