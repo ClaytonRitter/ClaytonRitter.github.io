@@ -37,10 +37,10 @@ h1 {
 }
 
 p {
-  color: hsl(217, 12%, 50%);
+  color: #707c8f;
   font-family: "Public Sans", sans-serif;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.1rem;
   word-spacing: 0.04rem;
   letter-spacing: -0.06rem;
@@ -120,8 +120,8 @@ li {
 
 .nav {
   position: absolute;
-  top: 12px;
-  right: 100px;
+  top: 48px;
+  left: 520px;
   margin: 0;
   padding: 0;
   font-size: 0;
@@ -132,7 +132,7 @@ li {
   background: black;
   font-family: "Special Gothic Expanded One", sans-serif;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: left;
   padding: 0 16px;
 }
