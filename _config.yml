@@ -1,5 +1,6 @@
 url: "https://aswiftdemise.com" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/ClaytonRitter.github.io" # the subpath of your site, e.g. /blog
-# Previously "/ClaytonRitter.github.io"
+baseurl: "/" # the subpath of your site, e.g. /blog
+# For jekyll serve: baseurl should be "/"
+# For deployment: baseurl should be "/ClaytonRitter.github.io"
 title: "ASwiftDemise" # the name of your site, e.g. ACME Corp.
-categories: [jekyll update]
+categories: []

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Design Ideals"
-date:   2025-11-14 18:55:00 -0400
-categories: jekyll update
+date:   2025-11-14 18:55:00
+categories:
 ---
 
 # Design Ideals
