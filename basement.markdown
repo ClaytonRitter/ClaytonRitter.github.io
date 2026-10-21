@@ -4,6 +4,6 @@ title: TheBasement
 permalink: /thebasement
 ---
 
-[Go back home i dont like it here]({% link index.markdown %})
+[Take me back home i dont like it here]({% link index.markdown %})
 
 
